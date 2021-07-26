@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap');
+
+/* Общие стили */
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main {
+    background-color: #E5E5E5;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+/* Стили заголовка */
+.main__title {
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
+}
+
+/*Стили для секции с товарами  */
+.product-list__subtitle {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+
+}
+
+.product-item {
+    background-color: #fff;
+    height: min-content;
+    padding: 30px;
+    max-width: 360px;
+}
+
+.product-item__title {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.product-item__image {
+    margin-top: 40px;
+    max-width: 300px;
+    height: auto;
+}
+
+.product-item__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    margin-top: 30px;
+}
+
+
+.price {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.product-item__button {
+    margin: 0 auto;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #2CC34F;
+    width: 300px;
+    padding: 18px 51px;
+    border: none;
+}
+
+.product-item__button:hover {
+    background-color: #22943C;
+    transition: .5s;
+}
+
+.product-item__button:disabled {
+    cursor: not-allowed;
+}
+
+.final-amount {
+    padding: 60px 0;
+    padding-left: 20%;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.final-amount__price {
+    color: #FF0000;
+}
